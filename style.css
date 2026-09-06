@@ -1,9 +1,9 @@
 /* --- VARIABLES (Color Palette) --- */
 :root {
-    --bg-yellow: #fcf9e1; /* Solid Pastel Yellow */
-    --text-grey: #2b2b2b; /* Dark Ink Grey */
-    --accent-grey: #4a4a4a;
-    --border-grey: #2b2b2b;
+    --bg-yellow: #FFD54F; /* A vibrant, warm yellow that pops cleanly */
+    --text-grey: #121212; /* Near-black for maximum crisp contrast */
+    --accent-grey: #333333;
+    --border-grey: #121212;
 }
 
 /* --- GLOBAL STYLES --- */
@@ -16,15 +16,15 @@
 body {
     background-color: var(--bg-yellow);
     color: var(--text-grey);
-    font-family: 'Courier Prime', monospace; /* Body font */
+    font-family: 'Courier Prime', monospace; 
     line-height: 1.6;
 }
 
-/* Ink-typed aesthetic for headings */
+/* Bold, modern headings */
 h1, h2, h3, .logo {
-    font-family: 'Special Elite', cursive;
-    font-weight: normal;
-    letter-spacing: 1px;
+    font-family: "Arial Black", Arial, sans-serif;
+    font-weight: 900;
+    letter-spacing: -0.5px; /* Tightens the heavy font slightly */
 }
 
 h2 {
